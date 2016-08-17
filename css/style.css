@@ -1,0 +1,136 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Josefin Sans", sans-serif;
+	background-color: #FAF9ED;
+}
+
+footer {
+	background-color: #FAF9ED;
+	padding: 10px;
+}
+
+header {
+	background-color: #FAF9ED;
+	padding: 20px 20px;
+	border-bottom: 5px solid #EAAF38;
+}
+
+h1 {
+	font-size: 50px;
+	line-height: 1;
+	float: left;
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 30px;
+	padding-top: 20px;
+	background-color: #FAF9ED;
+	padding-left: 20px;
+	font-weight: bold;
+}
+
+h3 {
+	background-color: #f39c12;
+	display: inline-block;
+	font-size: 30px;
+	width: 30%;
+	text-align: center;
+	margin: 300px 20px 20px 20px;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+nav {
+	float: right;
+	line-height: 1;
+}
+
+nav a {
+	text-decoration: none;
+	color: black;
+	font-size: 25px;
+	padding: 10px 10px;
+
+}
+
+#hero, #slideshow {
+	background: url("https://s-media-cache-ak0.pinimg.com/736x/7c/e4/57/7ce4570354bc2caa86194ef137cd331b.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#hero {
+	text-align: right;
+}
+
+
+#asides {
+	text-align: right;
+}
+
+#dreams, .discover {
+	background-color: #FAF9ED;
+}
+
+#slideshow {
+	text-align: center;
+}
+
+
+.column {
+	float: left;
+}
+
+.decades {
+	display: inline-block;
+	text-decoration: none;
+	color: black;
+	font-size: 25px;
+	padding: 0px 50px 5px 50px;
+}
+
+.decadenav {
+	text-align: center;
+}	
+
+.life {
+	background: url("https://s-media-cache-ak0.pinimg.com/236x/f4/26/c9/f426c9cdebc9935dcb42604bd0b7067c.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 50%;
+	
+}
+
+.sell {
+	background: url("https://s-media-cache-ak0.pinimg.com/236x/41/64/f4/4164f4af132ecce7387b4d03a96c79b5.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 50%;
+	
+}
+
+.slide {
+	display: inline-block;
+	width: 20%;
+	padding: 25px;
+}
+
+.story {
+	width: 35%;
+	margin: 40px 40px;
+	background-color: #FAF9ED;
+	display: inline-block;
+	text-align: center;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+.clearfix:after {
+  content: " ";
+  clear: both;
+  display: block;
+}
