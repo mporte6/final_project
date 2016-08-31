@@ -1,0 +1,177 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Josefin Sans", sans-serif;
+	font-size: 18px;
+}
+
+h1 {
+	font-size: 2em;
+	float: left;
+	font-weight: bold;
+}
+
+footer {
+	background-color: #E80C7A;
+	padding: 1% 1%;
+}
+
+header {
+	background-color: #E80C7A;
+	padding: 1% 1%;
+}
+
+nav {
+	float: right;
+	width: 25%;
+	text-align: right;
+
+}
+
+nav a {
+	text-decoration: none;
+	color: black;
+	font-size: 1.5em;
+	padding: 0 4% 0 4%;
+	width: 10%;
+
+}
+
+#about {
+	padding: 1% 1%;
+	border-bottom: .2em solid #0BDBAA;
+	border-top: .2em solid #0BDBAA;
+	text-align: center;
+}
+
+#main {
+	text-align: center;
+}
+
+#main a {
+	display: block;
+	position: relative;
+	width: 33.33%;
+	float: left;
+}
+
+#main a img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+#main .center {
+	display: none;
+	position: absolute;
+	top: 50%;
+	left: 40%;
+	background-color: #2980b9;
+	opacity: 0.8;
+	padding: 10px 10px;
+	border-radius: 5px;
+}
+
+#main a:hover {
+	opacity: 0.8;
+}
+
+#main a:hover .center {
+	display: block;
+}
+
+#menu {
+  display: none;
+}
+
+.center {
+	font-size: 2em;
+	font-weight: bold;
+	color: black;
+}
+
+
+.clearfix:after {
+  content: " ";
+  clear: both;
+  display: block;
+
+}
+
+.email {
+	text-decoration: none;
+	color: black;
+}
+
+.fa-instagram {
+	float: right;
+}
+
+.open {
+	display: block;
+}
+
+@media only screen and (max-width: 860px) {
+	#main a {
+		float: none;
+		width: auto;
+	}
+
+	nav {
+		float: none;
+		width: auto;
+
+	}
+
+	nav a {
+		display: none;
+}
+	 #menu {
+    	display: block;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+
+	body {
+		font-size: 16px;
+	}
+
+	h1 {
+		width: 100%;
+		padding-top: 3%;
+	}
+
+	header {
+		text-align: center;
+	}
+
+	footer {
+		padding: 20px 0 20px 0;
+		text-align: center;
+	}
+
+	nav a {
+		margin: 0 auto;
+	}
+
+	#about {
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+
+}
+
+
+
+
+
+
+
+
+

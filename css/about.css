@@ -1,0 +1,115 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Josefin Sans", sans-serif;
+	font-size: 18px;
+}
+
+h1 {
+	font-size: 2em;
+	float: left;
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 1.5em;
+}
+
+footer {
+	background-color: #E80C7A;
+	padding: 1% 1%;
+
+}
+
+header {
+	background-color: #E80C7A;
+	padding: 1% 1%;
+}
+
+nav {
+	float: right;
+	width: 25%;
+	text-align: right;
+
+}
+
+nav a {
+	text-decoration: none;
+	color: black;
+	font-size: 1.5em;
+	padding: 0 4% 0 4%;
+	width: 10%;
+
+}
+
+p, h3 {
+	height: 100%;
+}
+
+#about {
+	padding: 1% 1%;
+	border-bottom: .2em solid #0BDBAA;
+	border-top: .2em solid #0BDBAA;
+	text-align: center;
+}
+
+#blurb {
+	font-size: 1.3em;
+}
+
+#contact img {
+	display: block;
+	max-height: 418px;
+	width: 100%;
+	background-size: cover;
+}
+
+#email {
+	width: 20%;
+}
+
+#menu {
+  display: none;
+}
+
+
+.clearfix:after {
+  content: " ";
+  clear: both;
+  display: block;
+
+}
+
+.fa-instagram {
+	float: right;
+}
+
+@media only screen and (max-width: 600px) {
+
+	#menu {
+		display: block;
+	}
+
+	h1 {
+		width: 100%;
+		padding-top: 3%;
+	}
+
+	header {
+		text-align: center;
+	}
+
+	nav a {
+		margin: 0 auto;
+		display: none;
+	}
+
+		nav {
+		float: none;
+		width: auto;
+	}
+}
